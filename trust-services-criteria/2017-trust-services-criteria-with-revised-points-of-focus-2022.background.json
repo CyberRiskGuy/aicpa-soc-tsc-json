@@ -1,0 +1,50 @@
+{
+	"title": "2017 Trust Services Criteria for Security, Availability, Processing Integrity, Confidentiality, and Privacy (With Revised Points of Focus - 2022)",
+	"publisher": "AICPA",
+	"introduction": {
+		"notice_to_readers": "The 2017 Trust Services Criteria for Security, Availability, Processing Integrity, Confidentiality, and Privacy (With Revised Points of Focus — 2022) (2017 TSC) presents control criteria established by the AICPA's Assurance Services Executive Committee (ASEC) for use in attestation or consulting engagements to evaluate and report on controls over the security, availability, processing integrity, confidentiality, or privacy of information and systems used to provide products or services across an entity, subsidiary, operating unit, or for a particular type of information.",
+		"revisions": "This version of the 2017 TSC has been modified to reflect new points of focus and edits to extant points of focus relevant to certain of the trust services criteria. The changes to the points of focus in the 2022 revisions do not alter the criteria in the 2017 TSC."
+	},
+	"background": {
+		"purpose": "ASEC has developed a set of criteria (trust services criteria) to be used when evaluating the suitability of the design and operating effectiveness of controls relevant to security, availability, processing integrity, confidentiality, or privacy.",
+		"risk_factors": [
+			"Nature of entity's operations",
+			"Environment in which it operates",
+			"Types of information generated, used, or stored",
+			"Types of commitments made to customers and third parties",
+			"Responsibilities in operating and maintaining systems",
+			"Technologies, connection types, and delivery channels",
+			"Use of third parties with access to the entity's system",
+			"Changes to system operations, processing volume, key personnel, or legal requirements",
+			"Introduction of new services, products, or technologies"
+		],
+		"points_of_focus": "Points of focus represent important characteristics of the criteria and may assist management and practitioners in evaluating control effectiveness, but all points of focus do not need to be addressed."
+	},
+	"organization": {
+		"alignment_with_COSO": "The trust services criteria have been aligned to the 17 criteria (principles) in the COSO framework, plus additional supplemental criteria for principle 12.",
+		"supplemental_criteria_categories": [
+			"Logical and physical access controls",
+			"System operations",
+			"Change management",
+			"Risk mitigation"
+		],
+		"criteria_components": [
+			"Common criteria (applies to all categories)",
+			"Additional specific criteria for availability, processing integrity, confidentiality, and privacy"
+		],
+		"structure": "The common criteria provide specific criteria for control environment, information and communication, risk assessment, monitoring of controls, and control activities."
+	},
+	"application": {
+		"subject_matter_types": [
+			"Cybersecurity risk management program controls (SOC for Cybersecurity)",
+			"Service organization controls for SOC 2 engagements",
+			"Service organization controls for SOC 3 engagements",
+			"Controls of entities other than service organizations",
+			"Design of controls evaluation"
+		],
+		"professional_standards": {
+			"attestation_engagements": "May be performed under AT-C sections 105 and 205 or AT-C section 105 and AT-C section 206",
+			"consulting_engagements": "May be performed under CS section 100"
+		}
+	}
+}
