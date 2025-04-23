@@ -1,0 +1,186 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Trust Services Criteria Schema",
+  "description": "Schema for validating Trust Services Criteria JSON structure",
+  "type": "object",
+  "required": ["trustServicesCriteria"],
+  "properties": {
+    "trustServicesCriteria": {
+      "type": "object",
+      "required": [
+        "controlEnvironment",
+        "informationAndCommunication",
+        "riskAssessment",
+        "monitoringActivities",
+        "controlActivities",
+        "logicalAndPhysicalAccessControls",
+        "systemOperations",
+        "changeManagement",
+        "riskMitigation",
+        "additionalCriteria"
+      ],
+      "properties": {
+        "controlEnvironment": {
+          "type": "array",
+          "description": "Control Environment criteria (CC1.1-CC1.5)",
+          "items": {
+            "$ref": "#/definitions/criterionObject"
+          },
+          "minItems": 5
+        },
+        "informationAndCommunication": {
+          "type": "array",
+          "description": "Information and Communication criteria (CC2.1-CC2.3)",
+          "items": {
+            "$ref": "#/definitions/criterionObject"
+          },
+          "minItems": 3
+        },
+        "riskAssessment": {
+          "type": "array",
+          "description": "Risk Assessment criteria (CC3.1-CC3.4)",
+          "items": {
+            "$ref": "#/definitions/criterionObject"
+          },
+          "minItems": 4
+        },
+        "monitoringActivities": {
+          "type": "array",
+          "description": "Monitoring Activities criteria (CC4.1-CC4.2)",
+          "items": {
+            "$ref": "#/definitions/criterionObject"
+          },
+          "minItems": 2
+        },
+        "controlActivities": {
+          "type": "array",
+          "description": "Control Activities criteria (CC5.1-CC5.3)",
+          "items": {
+            "$ref": "#/definitions/criterionObject"
+          },
+          "minItems": 3
+        },
+        "logicalAndPhysicalAccessControls": {
+          "type": "array",
+          "description": "Logical and Physical Access Controls criteria (CC6.1-CC6.8)",
+          "items": {
+            "$ref": "#/definitions/criterionObject"
+          },
+          "minItems": 8
+        },
+        "systemOperations": {
+          "type": "array",
+          "description": "System Operations criteria (CC7.1-CC7.5)",
+          "items": {
+            "$ref": "#/definitions/criterionObject"
+          },
+          "minItems": 5
+        },
+        "changeManagement": {
+          "type": "array",
+          "description": "Change Management criteria (CC8.1)",
+          "items": {
+            "$ref": "#/definitions/criterionObject"
+          },
+          "minItems": 1
+        },
+        "riskMitigation": {
+          "type": "array",
+          "description": "Risk Mitigation criteria (CC9.1-CC9.2)",
+          "items": {
+            "$ref": "#/definitions/criterionObject"
+          },
+          "minItems": 2
+        },
+        "additionalCriteria": {
+          "type": "object",
+          "description": "Additional criteria sections (Availability, Confidentiality, Processing Integrity, Privacy)",
+          "required": [
+            "availability",
+            "confidentiality",
+            "processingIntegrity",
+            "privacy"
+          ],
+          "properties": {
+            "availability": {
+              "type": "array",
+              "description": "Availability criteria (A1.1-A1.3)",
+              "items": {
+                "$ref": "#/definitions/criterionObject"
+              },
+              "minItems": 3
+            },
+            "confidentiality": {
+              "type": "array",
+              "description": "Confidentiality criteria (C1.1-C1.2)",
+              "items": {
+                "$ref": "#/definitions/criterionObject"
+              },
+              "minItems": 2
+            },
+            "processingIntegrity": {
+              "type": "array",
+              "description": "Processing Integrity criteria (PI1.1-PI1.5)",
+              "items": {
+                "$ref": "#/definitions/criterionObject"
+              },
+              "minItems": 5
+            },
+            "privacy": {
+              "type": "array",
+              "description": "Privacy criteria (P1.1-P8.1)",
+              "items": {
+                "$ref": "#/definitions/criterionObject"
+              },
+              "minItems": 15
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "criterionObject": {
+      "type": "object",
+      "required": ["id", "principle", "pof"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "The criterion identifier (e.g., CC1.1, A1.2)",
+          "pattern": "^[A-Z]{1,2}[0-9]\\.[0-9]$"
+        },
+        "principle": {
+          "type": "string",
+          "description": "The principle statement for the criterion"
+        },
+        "pof": {
+          "type": "array",
+          "description": "Points of Focus for the criterion",
+          "items": {
+            "$ref": "#/definitions/pointOfFocus"
+          },
+          "minItems": 1
+        }
+      }
+    },
+    "pointOfFocus": {
+      "type": "object",
+      "required": ["id", "title", "requirement"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "The point of focus identifier (e.g., CC1.1.a)",
+          "pattern": "^[A-Z]{1,2}[0-9]\\.[0-9]\\.[a-z]{1,2}$"
+        },
+        "title": {
+          "type": "string",
+          "description": "The title of the point of focus"
+        },
+        "requirement": {
+          "type": "string",
+          "description": "The requirements specified by the point of focus"
+        }
+      }
+    }
+  }
+}
