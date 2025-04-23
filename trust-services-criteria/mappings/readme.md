@@ -2,7 +2,9 @@
 
 This folder contains the 2017 Trust Services Criteria (TSC) mapped to the NIST 800-53 Rev 5 framework controls. Source files are Excel (XLSX) format. Also includes a converter script to convert the XLSX file to JSON in a flat structure format.
 
-## Mapping Overview
+## Data Mapping Overview
+
+The data mapping has already been done and is available in the following formats.
 
 | Source Framework                                                   | Target Framework  | Data Map                                                          |
 | ------------------------------------------------------------------ | ----------------- | ----------------------------------------------------------------- |
@@ -12,7 +14,7 @@ This folder contains the 2017 Trust Services Criteria (TSC) mapped to the NIST 8
 
 [tsc_to_nist_800-53.xlsx](./tsc_to_nist_800-53.xlsx) is the source file containing the mapping of TSC to NIST 800-53 Rev 5 controls.
 
-The file contains two sheets:
+The file contains two worksheets:
 
 1. **Overview**: Metadata about the frameworks mapped.
 2. **NIST 800-53 as Points of Focus**: This sheet contains the mapping of TSC to NIST 800-53 Rev 5 controls.
@@ -46,13 +48,12 @@ npm install -D xlsx # Install xlsx package
 Run the script with:
 
 ```bash
-chmod +x convert-tsc-to-nist80053-json.js # Make the script executable
-node convert-tsc-to-nist80053-json.js # Execute the script
+node convert.js # Execute the script
 ```
 
 ### Step 4: Check the Output
 
-The script will generate a file named `tsc-to-nist80053.json` in the same directory, containing the complete mapping in the flat structure format you requested.
+The script will generate a file named `tsc-to-nist80053.json` in the same directory, containing the complete mapping in a flat JSON file.
 
 ### How the Script Works:
 
@@ -72,8 +73,8 @@ The script will generate a file named `tsc-to-nist80053.json` in the same direct
 By default, the script will look for `tsc_to_nist_80053.xlsx` in the current directory and output to `tsc-to-nist80053.json`. You can also specify different input and output files as command line arguments:
 
 ```bash
-# node convert-tsc-to-nist80053-json.js <input_file> <sheet_index> <output_file>
-node convert-tsc-to-nist80053-json.js input.xlsx 1 output.json
+# node convert.js <input_file> <sheet_index> <output_file>
+node convert.js input.xlsx 1 output.json
 ```
 
 This command will:

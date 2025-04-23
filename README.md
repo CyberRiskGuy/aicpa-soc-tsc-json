@@ -10,18 +10,18 @@ This repository is not affiliated with AICPA nor is it an official AICPA product
 
 ## Contents
 
-| Folder                                               | Description                                       |
-| ---------------------------------------------------- | ------------------------------------------------- |
-| [risk-management](./risk-management/)                | Illustrative cybersecurity risk management report |
-| [soc-1](./soc-1)                                     | SOC 1 source documents                            |
-| [soc-2](./soc-2)                                     | SOC 2 source documents                            |
-| [soc-3](./soc-3)                                     | SOC 3 source documents                            |
-| [trust-services-criteria](./trust-services-criteria) | Trust Services Criteria control requirements      |
+| Folder                                               | Description                                  |
+| ---------------------------------------------------- | -------------------------------------------- |
+| [sample-reports](./sample-reports/)                  | sample reports                               |
+| [soc-1](./soc-1)                                     | SOC 1 source documents                       |
+| [soc-2](./soc-2)                                     | SOC 2 source documents                       |
+| [soc-3](./soc-3)                                     | SOC 3 source documents                       |
+| [trust-services-criteria](./trust-services-criteria) | Trust Services Criteria control requirements |
 
 ## References
 
 - [https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022](https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022)
-- [https://www.aicpa-cima.com/resources/download/get-description-criteria-for-your-organizations-soc-2-r-report](https://www.aicpa-cima.com/resources/download/get-description-criteria-for-your-organizations-soc-2-r-report)
+
 - ***
 
 ## Contributing
