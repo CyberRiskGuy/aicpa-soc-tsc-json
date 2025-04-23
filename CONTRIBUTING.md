@@ -113,6 +113,7 @@ This section lists the labels we use to help us track and manage issues and pull
 | `duplicate`               | Issues which are duplicates of other issues, i.e. they have been reported before.                                               |
 | `wontfix`                 | The core team has decided not to fix these issues for now, either because they're working as intended or for some other reason. |
 | `invalid`                 | Issues which aren't valid (e.g. user errors).                                                                                   |
+| `vulnerability`           | Issues which are security vulnerabilities.                                                                                      |
 
 ## Thank You!
 
