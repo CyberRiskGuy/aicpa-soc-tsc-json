@@ -1,5 +1,22 @@
 {
-  "devDependencies": {
-    "xlsx": "^0.18.5"
-  }
+	"name": "soc",
+	"description": "This repository contains SOC 1, SOC 2, and SOC 3 Trust Services Criteria (control requirements for SOC) and framework mappings in machine readable format. The Association of International Certified Professional Accountants (AICPA), originators of the data, do not provide these in a machine readable format so this repository is intended to make it easier to work with the data for compliance-as-code use cases.",
+	"version": "1.0.0",
+	"main": "",
+	"devDependencies": {},
+	"scripts": {},
+	"keywords": [
+		"SOC",
+		"SOC 1",
+		"SOC 2",
+		"SOC 3",
+		"Trust Services Criteria",
+		"AICPA",
+		"compliance-as-code",
+		"JSON",
+		"machine readable",
+		"framework"
+	],
+	"author": "David McDonald",
+	"license": "GNU GPL v3"
 }
