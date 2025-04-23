@@ -8,6 +8,6 @@ A collection of sample reports in human and machine readable formats. The sample
 
 AICPA released an illustrative Cybersecurity Risk Management Report in 2023.
 
-- [Illustrative Risk Management Report (Release Notes)](./2023-illustrative-cybersercurity-risk-management-report.release-notes.pdf)
+- [Illustrative Risk Management Report (Release Notes)](./2023-illustrative-cybersercurity-risk-management-report.release-notes.md)
 - [2023-Illustrative Cybersecurity Risk Management Report (PDF)](./2023-illustrative-cybersercurity-risk-management-report.pdf)
 - [2023 Illustrative Cybersecurity Risk Management Report (JSON)](./2023-illustrative-cybersercurity-risk-management-report.json)
