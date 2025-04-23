@@ -1,10 +1,10 @@
 # Data mapping of TSC to NIST 800-53
 
-This folder contains the 2017 Trust Services Criteria (TSC) mapped to the NIST 800-53 Rev 5 framework controls. Source files are Excel (XLSX) format. Also includes a converter script to convert the XLSX file to JSON in a flat structure format.
+This folder contains the 2017 Trust Services Criteria (TSC) mapped to the NIST 800-53 Rev 5 framework controls. Source files are Excel (XLSX) format.
 
 ## Data Mapping Overview
 
-The data mapping has already been done and is available in the following formats.
+The data mapping has already been done by AICPA and is available in the following formats.
 
 | Source Framework                                                   | Target Framework  | Data Map                                                          |
 | ------------------------------------------------------------------ | ----------------- | ----------------------------------------------------------------- |
@@ -22,68 +22,7 @@ The file contains two worksheets:
 **From**: Trust Services Criteria 2017 (with revised points of focus - 2022)
 **To**: NIST 800-53 rev 5
 
-## Instructions to Convert Excel to JSON
-
-### Prerequisites
-
-1. Latest Node.js installed on your computer (Download from [nodejs.org](https://nodejs.org/))
-2. Basic familiarity with command line/terminal
-
-### Step 1: Set Up Your Project
-
-1. Create a new folder for this project
-2. Place your `tsc_to_nist_80053.xlsx` file in this folder
-3. Open a terminal/command prompt and navigate to your project folder
-
-### Step 2: Install Dependencies
-
-You will need to install the `xlsx` package to read Excel files. Run the following command in your terminal:
-
-```bash
-npm install -D xlsx # Install xlsx package
-```
-
-### Step 3: Run the Conversion Script
-
-Run the script with:
-
-```bash
-node convert.js # Execute the script
-```
-
-### Step 4: Check the Output
-
-The script will generate a file named `tsc-to-nist80053.json` in the same directory, containing the complete mapping in a flat JSON file.
-
-### How the Script Works:
-
-1. It reads the Excel file using the xlsx library
-2. It locates the second sheet ("NIST 800-53 as Points of Focus")
-3. It finds the header row with column titles
-4. It processes each row, identifying criteria headers and mapping entries
-5. It builds a flat JSON structure where each entry contains:
-   - Trust Service Criteria code
-   - Criteria description
-   - NIST reference code
-   - NIST description
-6. It writes the output to a JSON file
-
-### Running the Script with Arguments
-
-By default, the script will look for `tsc_to_nist_80053.xlsx` in the current directory and output to `tsc-to-nist80053.json`. You can also specify different input and output files as command line arguments:
-
-```bash
-# node convert.js <input_file> <sheet_index> <output_file>
-node convert.js input.xlsx 1 output.json
-```
-
-This command will:
-
-- Read from `input.xlsx` (or whatever file you specify)
-- Use the second sheet (index 1) of the Excel file
-- Write the output to `output.json` (or whatever file you specify)
-
-### Example Output
+### Example JSON Mapping
 
 ```json
 [
