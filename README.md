@@ -22,8 +22,6 @@ This repository is not affiliated with AICPA nor is it an official AICPA product
 
 - [https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022](https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022)
 
-- ***
-
 ## Contributing
 
 Contributions are welcome! If you have any suggestions or improvements, please open an issue or submit a pull request. Please see the [CONTRIBUTING.md](./CONTRIBUTING.md) file for more information.
