@@ -1,0 +1,78 @@
+{
+  "title": "SOC 2 Type II Compliance Checklist",
+  "steps": [
+    {
+      "id": 1,
+      "name": "Define Audit Parameters",
+      "tasks": [
+        "Identify applicable Trust Services Criteria for your organization.",
+        "Specify all systems, data, personnel, and software within audit scope.",
+        "Choose an appropriate audit timeframe (3, 6, 9, or 12 months)."
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Assess Risk Landscape",
+      "tasks": [
+        "Catalog all information assets and their associated risks.",
+        "Calculate the probability of each identified risk occurring.",
+        "Measure potential business impact from each identified risk.",
+        "Prioritize risks based on their overall organizational impact.",
+        "Develop specific treatment plans for each identified risk.",
+        "Document gaps in existing security controls through manual or automated assessment."
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Develop Remediation Strategy",
+      "tasks": [
+        "Implement or modify controls to address all identified security gaps.",
+        "Assign ownership and remediation timelines for each risk and control."
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Establish Control Framework",
+      "tasks": [
+        "Update all security policies and controls and distribute to employees for review.",
+        "Conduct comprehensive security awareness training for all personnel.",
+        "Communicate potential disciplinary consequences for security requirement violations."
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Compile Audit Materials",
+      "tasks": [
+        "Gather and organize all policy documentation and evidence screenshots throughout the audit window."
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Validate Audit Readiness",
+      "tasks": [
+        "Optionally engage a service auditor to perform a readiness assessment and implement their recommendations.",
+        "Conduct internal readiness evaluation by mapping controls to chosen Trust Services Criteria and addressing any gaps."
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Execute Formal Audit",
+      "tasks": [
+        "Engage an accredited SOC 2 auditor to perform the Type II audit.",
+        "Implement all auditor feedback and recommendations."
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Sustain Compliance Program",
+      "tasks": [
+        "Schedule regular management reviews (minimum annually, quarterly recommended).",
+        "Perform annual risk assessment processes.",
+        "Monitor control effectiveness continuously to ensure ongoing policy alignment.",
+        "Track emerging or escalating risks and implement updated security controls.",
+        "Document all compliance exceptions and verify corrective actions through completion.",
+        "Schedule SOC audits at 12-month intervals."
+      ]
+    }
+  ]
+}

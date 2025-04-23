@@ -1,0 +1,90 @@
+{
+	"title": "String",
+	"date": "String",
+	"publisher": "String",
+	"sections": {
+		"introduction": {
+			"note_to_readers": "String"
+		},
+		"reportContent": {
+			"title": "String",
+			"contents": ["String"]
+		},
+		"section1": {
+			"title": "String",
+			"introduction": "String",
+			"definition": "String",
+			"inherentLimitations": {
+				"description": "String",
+				"examples": ["String"]
+			},
+			"assertion": "String"
+		},
+		"section2": {
+			"title": "String",
+			"addressee": "String",
+			"scope": {
+				"description": "String",
+				"criteria": ["String"]
+			},
+			"entityResponsibilities": ["String"],
+			"accountantResponsibilities": "String",
+			"examinationProcedures": ["String"],
+			"inherentLimitations": {
+				"description": "String",
+				"note": "String"
+			},
+			"opinion": "String",
+			"signature": {
+				"firm": "String",
+				"location": "String",
+				"date": "String"
+			}
+		},
+		"section3": {
+			"title": "String",
+			"natureOfBusiness": {
+				"description": "String",
+				"segments": [
+					{
+						"name": "String",
+						"revenue": "String"
+					}
+				],
+				"locations": ["String"]
+			},
+			"natureOfInformation": ["String"],
+			"cybersecurityObjectives": {
+				"availability": {
+					"description": "String",
+					"specificObjectives": ["String"]
+				},
+				"confidentiality": {
+					"description": "String",
+					"itemsToSafeguard": ["String"]
+				},
+				"integrityOfData": {
+					"description": "String"
+				},
+				"integrityOfProcessing": {
+					"description": "String"
+				}
+			},
+			"riskGovernanceStructure": {
+				"boardOversight": "String",
+				"accountability": "String"
+			},
+			"riskAssessmentProcess": {
+				"description": "String"
+			},
+			"controlActivities": {
+				"preventionControls": ["String"],
+				"detectionAndResponseControls": {
+					"detectionMechanisms": "String",
+					"incidentResponsePlan": "String"
+				}
+			}
+		}
+	},
+	"disclaimer": "String"
+}

@@ -1,0 +1,144 @@
+{
+	"title": "Illustrative Cybersecurity Risk Management Report",
+	"date": "January 2025",
+	"publisher": "AICPA",
+	"sections": {
+		"introduction": {
+			"note_to_readers": "This illustrative cybersecurity risk management report contains all the required components of such a report, including (a) management's assertion, (b) the accountant's report, and (c) the description of the entity's cybersecurity risk management program."
+		},
+		"reportContent": {
+			"title": "Report on XYZ Manufacturing's Description of its Cybersecurity Risk Management Program and the Effectiveness of Controls Within the Program Throughout the Period January 1, 20X1, to December 31, 20X1",
+			"contents": [
+				"Section 1 — Assertion of the Management of XYZ Manufacturing",
+				"Section 2 — Independent Accountant's Report",
+				"Section 3 — XYZ Manufacturing's Description of Its Cybersecurity Risk Management Program"
+			]
+		},
+		"section1": {
+			"title": "Assertion of the Management of XYZ Manufacturing",
+			"introduction": "We have prepared the attached XYZ Manufacturing's Description of its Cybersecurity Risk Management Program throughout the period January 1, 20X1, to December 31, 20X1, based on the criteria for a description of an entity's cybersecurity risk management program identified in the AICPA Description Criteria.",
+			"definition": "An entity's cybersecurity risk management program is the set of policies, processes, and controls designed to protect information and systems from security events that could compromise the achievement of the entity's cybersecurity objectives and to detect, respond to, mitigate, and recover from, on a timely basis, security events that are not prevented.",
+			"inherentLimitations": {
+				"description": "There are inherent limitations in any system of internal control, including the possibility of human error and the circumvention of controls.",
+				"examples": [
+					"Vulnerabilities in information technology components as a result of design by their manufacturer or developer",
+					"Ineffective controls at a vendor or business partner",
+					"Persistent attackers with the resources to use advanced technical means and sophisticated social engineering techniques specifically targeting the entity"
+				]
+			},
+			"assertion": "We assert that the description throughout the period January 1, 20X1, to December 31, 20X1, is presented in accordance with the description criteria. We have performed an evaluation of the effectiveness of the controls included within the cybersecurity risk management program throughout the period January 1, 20X1, to December 31, 20X1, using the criteria for security, availability, and confidentiality set forth in TSP section 100, 2017 Trust Services Criteria."
+		},
+		"section2": {
+			"title": "Independent Accountant's Report",
+			"addressee": "To Management of XYZ Manufacturing",
+			"scope": {
+				"description": "We have examined the accompanying XYZ Manufacturing's Description of its Cybersecurity Risk Management Program throughout the period January 1, 20X1, to December 31, 20X1, based on the description criteria noted below.",
+				"criteria": [
+					"AICPA's Description Criteria for Management's Description of an Entity's Cybersecurity Risk Management Program",
+					"TSP section 100, 2017 Trust Services Criteria for Security, Availability, Processing Integrity, Confidentiality, and Privacy"
+				]
+			},
+			"entityResponsibilities": [
+				"Establishing the entity's cybersecurity objectives",
+				"Designing, implementing, and operating the cybersecurity risk management program",
+				"Preparing the accompanying description of the entity's cybersecurity risk management program",
+				"Providing an assertion about the presentation of the description and effectiveness of controls"
+			],
+			"accountantResponsibilities": "Our responsibility is to express an opinion, based on our examination, about whether the description of the entity's cybersecurity risk management program is presented in accordance with the description criteria and whether the controls within that program were effective to achieve the entity's cybersecurity objectives based on the control criteria.",
+			"examinationProcedures": [
+				"Obtaining an understanding of the entity's cybersecurity objectives and its cybersecurity risk management program",
+				"Assessing the risks that the description was not presented in accordance with the description criteria and that the controls within that program were not effective",
+				"Performing procedures to obtain evidence about whether the description is presented in accordance with the description criteria and whether the controls were effective"
+			],
+			"inherentLimitations": {
+				"description": "Same as management's assertion section",
+				"note": "Furthermore, projections of any evaluation of effectiveness to future periods are subject to the risk that controls may become inadequate because of changes in conditions or that the degree of compliance with the policies or procedures may deteriorate."
+			},
+			"opinion": "In our opinion, in all material respects, the description of XYZ Manufacturing's cybersecurity risk management program throughout the period January 1, 20X1, to December 31, 20X1, is presented in accordance with the description criteria and the controls within that program were effective throughout the period January 1, 20X1, to December 31, 20X1, to achieve the entity's cybersecurity objectives based on the control criteria.",
+			"signature": {
+				"firm": "Baker, Jones, and Eagle, CPAs",
+				"location": "Athens, Georgia",
+				"date": "March 1, 20X2"
+			}
+		},
+		"section3": {
+			"title": "XYZ Manufacturing's Description of Its Cybersecurity Risk Management Program",
+			"natureOfBusiness": {
+				"description": "XYZ Manufacturing is a leading manufacturer, distributor, and retailer of reproduction consumer products and objects from various historical periods, with an emphasis on classical Greece, ancient Rome, and medieval Europe.",
+				"segments": [
+					{ "name": "manufacturing", "revenue": "30 percent" },
+					{ "name": "online retail", "revenue": "40 percent" },
+					{ "name": "wholesale", "revenue": "30 percent" }
+				],
+				"locations": ["Athens, Georgia", "Rome, Italy", "Shanghai, China"]
+			},
+			"natureOfInformation": [
+				"Financial information",
+				"Confidential sales information",
+				"Payment card information",
+				"Online retail customer profile information",
+				"Confidential product information",
+				"Proprietary information provided by business partners",
+				"Confidential employee information"
+			],
+			"cybersecurityObjectives": {
+				"availability": {
+					"description": "Enabling timely, reliable, and continuous access to and use of information and systems to support operations",
+					"specificObjectives": [
+						"Online retail store availability 24-hours a day year-round",
+						"Manufacturing system availability during scheduled shifts",
+						"Timely information from the ERP system",
+						"Wholesale systems availability as committed",
+						"Support the delivery of products to customers as committed",
+						"Comply with applicable laws and regulations",
+						"Safeguard assets"
+					]
+				},
+				"confidentiality": {
+					"description": "Protecting information from unauthorized access and disclosure",
+					"itemsToSafeguard": [
+						"Employee and customer information, including credit card information",
+						"Confidential corporate data",
+						"Confidential business transactions",
+						"Intellectual property"
+					]
+				},
+				"integrityOfData": {
+					"description": "Guarding against improper capture, modification or destruction of information"
+				},
+				"integrityOfProcessing": {
+					"description": "Guarding against improper use, modification, or destruction of systems"
+				}
+			},
+			"riskGovernanceStructure": {
+				"boardOversight": "The XYZ board of directors includes various outside directors with industry knowledge and experience including one board member who is a former IT director of an S&P 100 company with 15 plus years of experience in IT and cybersecurity.",
+				"accountability": "Under the direction of the risk governance committee, the CISO is responsible for overseeing the cybersecurity risk management program and executing the entity's strategy and other decisions agreed upon by executive management and the board of directors."
+			},
+			"riskAssessmentProcess": {
+				"description": "XYZ maintains a detailed inventory of all information systems, including manufacturing and industrial control systems. On an annual basis, the information security team performs a risk assessment that identifies internal and external cyber threats and vulnerabilities to the organization."
+			},
+			"controlActivities": {
+				"preventionControls": [
+					"Physical and Logical Access Provisioning",
+					"Authentication",
+					"Credentials Management",
+					"Privileged User Management",
+					"Database Security",
+					"Data Loss Prevention",
+					"Data Destruction",
+					"Data Backup",
+					"Virus Detection and Prevention",
+					"Firewalls and Perimeter Security",
+					"Secure System Configuration",
+					"Intrusion Prevention",
+					"Change Management"
+				],
+				"detectionAndResponseControls": {
+					"detectionMechanisms": "A dedicated security team is available 24/7. Administrative activity and supporting infrastructure components are monitored through manual analysis and automated alerts.",
+					"incidentResponsePlan": "The incident response sections of the Cybersecurity Incident Response and Recovery Plan (CIRP) includes tactical procedures to help 'triage,' contain, monitor, or eradicate a security incident."
+				}
+			}
+		}
+	},
+	"disclaimer": "This material is offered with the understanding that it does not constitute legal, accounting, or other professional services or advice. If legal advice or other expert assistance is required, the services of a competent professional should be sought."
+}
