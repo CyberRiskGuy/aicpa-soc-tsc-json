@@ -1,6 +1,14 @@
-# AICPA SOC Control Requirements
+# AICPA SOC2 Control Requirements
 
-This repository contains SOC 1, SOC 2, and SOC 3 Trust Services Criteria (control requirements for SOC) and framework mappings in machine readable format. The Association of International Certified Professional Accountants (AICPA), originators of the data, do not provide these in a machine readable format so this repository is intended to make it easier to work with the data for compliance-as-code use cases.
+This repository contains SOC 2 Trust Services Criteria (control requirements for SOC) and framework mappings in machine readable format. The Association of International Certified Professional Accountants (AICPA), originators of the data, do not provide these in a machine readable format so this repository is intended to make it easier to work with the data for compliance-as-code use cases.
+
+## What is SOC 2?
+
+SOC 2 is an attestation, not a certification, meaning it's a report issued by an independent auditor (like a CPA firm) that verifies an organization's controls meet specific standards related to data security, availability, processing integrity, confidentiality, and privacy. SOC 2 itself is not prescriptive in the sense of dictating specific requirements, tools or processes, but rather sets criteria (the "Trust Services Criteria") for establishing and maintaining robust information security and privacy principles within an organization. In essence, SOC 2 broadly sets the "what to do" (criteria) and the organization details the "how we do it" (implementation and operations) to achieve compliance to the criteria.
+
+## SOC 2 Types I vs II
+
+A SOC 2 Type I report focuses on the suitability of the _design_ of controls, while a SOC 2 Type II report covers both _design_ and the _operating effectiveness_ of those controls. Therefore, Type II reports provide a more comprehensive and descriptive view of how an organization's controls are implemented and operate in practice. 
 
 ## Disclaimer
 
@@ -13,9 +21,7 @@ This repository is not affiliated with AICPA nor is it an official AICPA product
 | Folder                                               | Description                                  |
 | ---------------------------------------------------- | -------------------------------------------- |
 | [sample-reports](./sample-reports/)                  | sample reports                               |
-| [soc-1](./soc-1)                                     | SOC 1 source documents                       |
 | [soc-2](./soc-2)                                     | SOC 2 source documents                       |
-| [soc-3](./soc-3)                                     | SOC 3 source documents                       |
 | [trust-services-criteria](./trust-services-criteria) | Trust Services Criteria control requirements |
 
 ## References
